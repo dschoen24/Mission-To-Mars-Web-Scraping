@@ -31,10 +31,10 @@ def scrape():
     
 
     # for Mars latest image visit the url and get the full image url
-    featured_image_url = 'https://spaceimages-mars.com/image/featured/mars1.jpg'
+    image_url = 'https://spaceimages-mars.com'
 
     # use browser to open the url for image
-    browser.visit(img_url) 
+    browser.visit(image_url) 
 
     # create html to parse
     html = browser.html
@@ -42,7 +42,13 @@ def scrape():
     # create soup object to parse html
     soup = bs(html, "html.parser")
     
+    # Use BeautifulSoup to Navigate to the Image
+    image = soup.find("img", class_="headerimage")
 
+    image = image.attrs['src']
+
+    # Create the URL for the Image
+    featured_image_url = image_url + "/" + image
    
     # Mars facts
     # get the url for Mars's facts 
@@ -65,6 +71,7 @@ def scrape():
 
     # reset the index for the df
     facts_df.set_index("Description", inplace=True)
+
     # convert dataframe to an html table string
     facts_html = facts_df.to_html()
 
