@@ -96,7 +96,15 @@ https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/a
 - I then created a template HTML file that will take the mars data dictionary and display all of the scraped
   data in appropriate HTML elements giving me my final HTML results page.
 
+https://github.com/dschoen24/web-scraping-challenge/blob/main/Missions_to_Mars/templates/index.html
 
+_______________________________________________________
+
+## Final Results
+
+______________________________________________________
+
+- You can see the final results of my HTML page by running the code.
 
 
 
