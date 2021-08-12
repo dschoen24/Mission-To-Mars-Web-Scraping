@@ -104,7 +104,9 @@ _______________________________________________________
 
 ______________________________________________________
 
-- You can see the final results of my HTML page by running the code.
+- You can see the final results of my HTML page by visiting http://localhost:5000/ and then running the code.
 
+- I have also included screen shots of my webpage in the Images folder
 
+https://github.com/dschoen24/web-scraping-challenge/tree/main/Images
 
