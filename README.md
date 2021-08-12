@@ -79,6 +79,20 @@ ______________________________________________________
 I utilized MongoDB with Flask templating to create my HTML page that displays all of the information
 that was scraped from the above URLs.
 
+- I started by converting my Jupyter notebook into a Python script to include the scrape function that
+  will execute all the sraping I did above and return one Python dictionary containing all the scraped data.
+
+https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/scrape_mars.py
+
+- I then created a route that will import my python script and call my scrape function
+
+https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/app.py
+
+    - I stored the return value for this in Mongo as a Python dictionary
+
+- From there, I created a root route / that will query my Mongo database and pass the mars data into a
+  HTML template to display the data
+
 
 
 
