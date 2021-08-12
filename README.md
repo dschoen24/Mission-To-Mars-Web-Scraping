@@ -76,6 +76,9 @@ ______________________________________________________
 
 ______________________________________________________
 
+I utilized MongoDB with Flask templating to create my HTML page that displays all of the information
+that was scraped from the above URLs.
+
 
 
 
