@@ -93,6 +93,9 @@ https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/a
 - From there, I created a root route / that will query my Mongo database and pass the mars data into a
   HTML template to display the data
 
+- I then created a template HTML file that will take the mars data dictionary and display all of the scraped
+  data in appropriate HTML elements giving me my final HTML results page.
+
 
 
 
