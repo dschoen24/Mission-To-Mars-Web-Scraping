@@ -1,5 +1,5 @@
 
-# Web Scraping Project - Mission to Mars
+# Web Scraping - Mission to Mars
 
 ![image](https://user-images.githubusercontent.com/82673788/129237431-3edc9e33-6ef9-43f7-af6b-fc4805b83540.png)
 
@@ -88,7 +88,7 @@ https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/s
 
 https://github.com/dschoen24/web-scraping-challenge/tree/main/Missions_to_Mars/app.py
 
-    - I stored the return value for this in Mongo as a Python dictionary
+- I stored the return value for this in Mongo as a Python dictionary
 
 - From there, I created a root route / that will query my Mongo database and pass the mars data into a
   HTML template to display the data
