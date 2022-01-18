@@ -113,5 +113,7 @@ https://github.com/dschoen24/web-scraping-challenge/tree/main/Images
 ____________________________________________________________________________________________________
 
 Contact:  Debra Potts
+
 Email:  dschoenstl24@gmail.com
+
 LinkedIn:  www.linkedin.com/in/dschoenpotts
